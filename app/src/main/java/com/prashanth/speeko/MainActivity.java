@@ -65,17 +65,7 @@ public class MainActivity extends AppCompatActivity {
 
             }
         });
-        lvCasualTalk.setOnItemClickListener(new AdapterView.OnItemClickListener() {
-            @Override
-            public void onItemClick(AdapterView<?> adapterView, View view, int position, long id) {
-                Intent i =  new Intent(getApplicationContext(),DiscussionActivity.class);
-                i.putExtra("selected_topic",((TextView)view).getText().toString());
-                i.putExtra("user_name",UserName);
-                startActivity(i);
-            }
-        });
-
-    }
+       }
 
     private void getUserName(){
         AlertDialog.Builder builder = new AlertDialog.Builder(this );

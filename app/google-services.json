@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "148834918251",
+    "firebase_url": "https://speeko-571.firebaseio.com",
+    "project_id": "speeko-571",
+    "storage_bucket": "speeko-571.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:148834918251:android:83c666e757120dd4e6f62e",
+        "android_client_info": {
+          "package_name": "com.prashanth.speeko"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "148834918251-9qrpph2laaf5h98i2lla6qdgt1iv5sfi.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.prashanth.speeko",
+            "certificate_hash": "7d68cd666b16e51f876b75a7bee4c99dc8e3d25e"
+          }
+        },
+        {
+          "client_id": "148834918251-umv95q8c0lkusif98ai136138ipnmuoc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC7wgzN2ZdOwOz6hgXZZtPVE15FTUsfd0k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "148834918251-umv95q8c0lkusif98ai136138ipnmuoc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

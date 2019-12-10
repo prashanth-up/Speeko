@@ -96,17 +96,4 @@ public class DiscussionActivity extends AppCompatActivity {
             }
         });
     }
-
-    public void updateConcersation(DataSnapshot dataSnapshot){
-        String msg , user, conversation ;
-        Iterator i = dataSnapshot.getChildren().iterator();
-        while (i.hasNext()){
-            msg = (String) ((DataSnapshot)i.next()).getValue();
-            user = (String) ((DataSnapshot)i.next()).getValue();
-
-            conversation = user + " : " + msg ;
-            arrayAdpt.add(user + " : " + msg);
-            arrayAdpt.notifyDataSetChanged();
-        }
-    }
 }
